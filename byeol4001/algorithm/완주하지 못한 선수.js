@@ -10,5 +10,5 @@ function solution(participant, completion) {
   for (let i in participant) {
     if (participant[i] !== completion[i]) return participant[i];
   }
-  //  - 2 정렬된 배열 중에 다른 값이 나오면 그 사람이 완주하지 못한 사람이므로 그 값을 return 한다.
+  //  - 2 정렬된 배열 중에 다른 값이 나오면 그 사람이 완주하지 못한 사람이므로 그 값을 return
 }
