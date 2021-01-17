@@ -1,4 +1,4 @@
-// * https://programmers.co.kr/learn/courses/30git pull/lessons/12935?language=javascript
+// * https://programmers.co.kr/learn/courses/30/lessons/12935?language=javascript
 
 function solution(arr){
     var answer = [];
