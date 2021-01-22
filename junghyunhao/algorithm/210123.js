@@ -1,5 +1,8 @@
 /**
  * https://programmers.co.kr/learn/courses/30/lessons/12930
+ * 블로그 포스팅
+ * https://velog.io/@junghyunhao/%EC%95%8C
+ *
  * ? 이상한 문자 만들기
  */
 function solution(s) {
