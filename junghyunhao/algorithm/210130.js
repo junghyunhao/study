@@ -25,4 +25,15 @@ function solution(participant, completion) {
   return participant;
 }
 
+function solution(participant, completion) {
+  const sortedParticipant = participant.sort();
+  const sortedCompletion = completion.sort();
+
+  for (let i = 0; i < completion.length; i++) {
+    if (sortedParticipant[i] !== sortedCompletion[i]) {
+      return sortedParticipant[i];
+    }
+  }
+}
+
 solution(["mislav", "stanko", "mislav", "ana"], ["stanko", "ana", "mislav"]);
