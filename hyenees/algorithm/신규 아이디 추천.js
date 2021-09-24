@@ -7,9 +7,9 @@ function solution(new_id){
                   .replace(/\.+(?=.)/g, '.') // + 앞의 정규식이 1회이상 반복, "?=" 뒤의 값이 뒤따라오는 "?="의 앞의 값
                   .replace(/^\.|\.$/g, "")  // ^ + 첫번째 값, 마지막값 + $
                   .replace(/^$/,'a') // ^$ 같이쓰면 공백
-                  .slice(0, 15)
+                  .slice(0, 15)^$
                   .replace(/\.$/,"")
-    
+                  
     while(answer.length < 3){
        answer = answer + answer[answer.length-1]
     }
