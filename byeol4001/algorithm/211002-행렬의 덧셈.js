@@ -1,5 +1,6 @@
 /*
  * https://programmers.co.kr/learn/courses/30/lessons/12950
+ * https://programmers.co.kr/learn/courses/30/lessons/12950
  ! 신규 아이디 추천
  */
 
